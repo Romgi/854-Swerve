@@ -19,8 +19,8 @@ public final class Constants {
 
     //Controller Constants
     public static final int kDriverControllerPort = 0;
-    public static final double LEFT_Y_DEADBAND = 0.05;
-    public static final double LEFT_X_DEADBAND = 0.05;
+    public static final double LEFT_Y_DEADBAND = 0.1;
+    public static final double LEFT_X_DEADBAND = 0.1;
     public static final double TurnSpeed = 1;
   }
 
