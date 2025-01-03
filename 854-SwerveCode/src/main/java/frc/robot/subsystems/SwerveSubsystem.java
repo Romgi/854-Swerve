@@ -15,7 +15,11 @@ import edu.wpi.first.wpilibj.Filesystem;
 import swervelib.parser.SwerveParser;
 import swervelib.SwerveDrive;
 import swervelib.math.SwerveMath;
+import edu.wpi.first.math.geometry.Pose2d;
+import edu.wpi.first.math.geometry.Rotation2d;
 import edu.wpi.first.math.geometry.Translation2d;
+
+import static edu.wpi.first.units.Units.Meter;
 
 public class SwerveSubsystem extends SubsystemBase {
   /** Creates a new ExampleSubsystem. */
@@ -24,7 +28,10 @@ public class SwerveSubsystem extends SubsystemBase {
 
   public SwerveSubsystem() {
     try{
-      swerveDrive = new SwerveParser(directory).createSwerveDrive(Constants.MAX_SPEED);
+      swerveDrive = new SwerveParser(directory).createSwerveDrive(Constants.MAX_SPEED,
+                                                                new Pose2d(new Translation2d(Meter.of(1),
+                                                                                             Meter.of(4)),
+                                                                                Rotation2d.fromDegrees(0)));
     } catch (Exception e)
     {
       throw new RuntimeException(e);
