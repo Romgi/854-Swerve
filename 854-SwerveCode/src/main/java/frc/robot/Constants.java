@@ -24,6 +24,6 @@ public final class Constants {
     public static final double TurnSpeed = 1; //Radians per second
   }
 
-//Absolute Maximum Swerve Drive Speed, f/s
-public static final double MAX_SPEED = 10;
+//Absolute Maximum Swerve Drive Speed
+public static final double MAX_SPEED = Units.feetToMeters(4.5);
 }
