@@ -21,9 +21,10 @@ public final class Constants {
     public static final int kDriverControllerPort = 0;
     public static final double LEFT_Y_DEADBAND = 0.1;
     public static final double LEFT_X_DEADBAND = 0.1;
-    public static final double TurnSpeed = 1; //Radians per second
+    public static final double TurnSpeed = 2;
+    public static final double DEADBAND = 0.05;
   }
 
 //Absolute Maximum Swerve Drive Speed
-public static final double MAX_SPEED = Units.feetToMeters(4.5);
+public static final double MAX_SPEED = Units.feetToMeters(10);
 }

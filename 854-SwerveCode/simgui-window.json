@@ -6,30 +6,30 @@
     "GLOBAL": {
       "font": "Proggy Dotted",
       "fps": "120",
-      "height": "1009",
-      "maximized": "1",
+      "height": "1321",
+      "maximized": "0",
       "style": "0",
       "userScale": "2",
-      "width": "1920",
-      "xpos": "0",
-      "ypos": "23"
+      "width": "1276",
+      "xpos": "1282",
+      "ypos": "45"
     }
   },
   "Window": {
     "###/SmartDashboard/Field": {
       "Collapsed": "0",
-      "Pos": "1311,130",
-      "Size": "574,440"
+      "Pos": "30,38",
+      "Size": "1084,840"
     },
     "###FMS": {
       "Collapsed": "0",
       "Pos": "5,540",
-      "Size": "169,184"
+      "Size": "235,244"
     },
     "###Joysticks": {
       "Collapsed": "0",
-      "Pos": "244,466",
-      "Size": "796,234"
+      "Pos": "53,803",
+      "Size": "1156,310"
     },
     "###NetworkTables": {
       "Collapsed": "0",
@@ -59,7 +59,7 @@
     "###Timing": {
       "Collapsed": "0",
       "Pos": "5,150",
-      "Size": "135,219"
+      "Size": "188,273"
     },
     "Debug##Default": {
       "Collapsed": "0",
@@ -69,7 +69,7 @@
     "Robot State": {
       "Collapsed": "0",
       "Pos": "5,20",
-      "Size": "92,116"
+      "Size": "126,152"
     }
   }
 }

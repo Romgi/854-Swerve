@@ -63,7 +63,7 @@ public class RobotContainer {
     () -> MathUtil.applyDeadband(m_driverController.getLeftX(), OperatorConstants.LEFT_X_DEADBAND),
     () -> m_driverController.getRightX() * OperatorConstants.TurnSpeed * -1 ); //-1 to invert right stick
 
-  /**
+  /*
    * Use this to pass the autonomous command to the main {@link Robot} class.
    *
    * @return the command to run in autonomous
